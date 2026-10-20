@@ -18,3 +18,5 @@ footer{flex-shrink:0;padding:9px 4px}
 details{flex-shrink:0;max-height:140px;overflow:auto}
 #empty{padding:16px}#empty h2{margin:12px 0}#empty p{margin-bottom:10px}#empty small{margin-top:10px}
 }
+
+#copyAllText,#copySelectedText{width:100%;margin-bottom:8px}#textDialog{width:min(650px,94vw)}@media(max-width:800px){#copyAllText,#copySelectedText{width:auto;margin:0}}
