@@ -1,0 +1,21 @@
+SCREENSHOT MARKUP — CLOUDFLARE
+
+1. Extract this ZIP. Upload all contents to the root of your GitHub repository.
+   Keep public/ and its subfolders intact.
+2. In Cloudflare Workers & Pages, create a Worker connected to that repository.
+3. Build command: leave empty.
+   Deploy command: npx wrangler deploy
+   Root directory: repository root.
+4. Deploy. Add your custom domain under the Worker Settings / Domains & Routes.
+
+If your Worker has a different name, change the name in wrangler.jsonc to match.
+No database, R2 bucket, secrets or API keys are needed.
+Images and text recognition are processed in the visitor's browser.
+All OCR assets are included; keep the public/ocr directory.
+
+Arrow: start at the target and drag out. No text prompt.
+Arrow + note: start at the target, drag out, release, and type your note.
+Circle defaults to black. Highlighter defaults to yellow.
+Copy image needs HTTPS and browser clipboard permission; Download PNG is an alternative.
+
+This export contains the latest compact note-box changes.
