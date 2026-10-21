@@ -20,3 +20,18 @@ details{flex-shrink:0;max-height:140px;overflow:auto}
 }
 
 #copyAllText,#copySelectedText{width:100%;margin-bottom:8px}#textDialog{width:min(650px,94vw)}@media(max-width:800px){#copyAllText,#copySelectedText{width:auto;margin:0}}
+/* Shared tools theme: navy panels, cyan controls. */
+:root{color-scheme:dark;background:#07111d;color:#f4f7fb;scrollbar-color:#405269 #101c2a}
+header{background:#0e1a28;color:#fff;border-bottom:1px solid #2b3b4c}
+.logo{background:#123342;color:#63e5ff}.privacy,.sub,.settings label,.small,footer,details,#empty p,#empty small,dialog label{color:#a6b9cd}.privacy i{background:#28d3e8}
+button,header>button{background:#172534;border-color:#354759;color:#f4f7fb}button:hover:not(:disabled){background:#22374a}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline-color:#27d7f1}
+aside{background:#121e2b;border-color:#2b3b4c}.eyebrow{color:#64e8ff}.tools button{background:#101b29;border-color:#283b4e}.tools small{color:#a6b9cd}.tools button:hover:not(:disabled){background:#1b3041}
+.tools .selected,.tools .selected:hover:not(:disabled){background:#12394b;color:#6eeaff;border-color:#20cde8;box-shadow:inset 3px 0 #20cde8}.tools .selected small{color:#b6e8f3}.tools .selected kbd,kbd{background:#0c1725;color:#b6ccdf;border-color:#3b5267}
+.primary{background:#09c6e8;border-color:#09c6e8;color:#03151d}.primary:hover:not(:disabled){background:#5ae4fa}
+.settings{border-color:#2b3b4c}.settings input[type=range],input[type=checkbox]{accent-color:#09c6e8}
+.instruction{background:#102c3c;color:#c3eff8;border-color:#295168;font-weight:600}
+#viewport{background-color:#091320;background-image:radial-gradient(#26384b .8px,transparent .8px);border-color:#2b3b4c}
+.uploadicon{background:#123342;color:#6eeaff;box-shadow:none}.tip{background:#0c1927;color:#a6b9cd}.tip strong{color:#64e8ff}
+.swatches button{border-color:#26394c;box-shadow:0 0 0 1px #61778c;background:var(--swatch)}.swatches .chosen{box-shadow:0 0 0 3px #20cde8}
+dialog{background:#121e2b;color:#f4f7fb;border-color:#3a5064;box-shadow:0 20px 80px #0009}dialog::backdrop{background:#020813bb}textarea{background:#091320;color:#f4f7fb;border-color:#3a5064}textarea::placeholder{color:#8ba3ba}
